@@ -1,0 +1,267 @@
+body {
+    padding: 0;
+    margin: 0;
+    /* font-family: ; */
+}
+
+.navbar {
+    background-color: white !important;
+}
+
+.icon_item {
+    width: 20px;
+}
+
+.icon_item:hover {
+    opacity: 0.8;
+}
+
+.container {
+    max-width: 1400px !important;
+}
+
+.text_item {
+    padding-right: 100px;
+}
+
+.title_item h1 {
+    margin-bottom: 30px;
+}
+
+.title_item_img {
+    width: 100%;
+}
+
+
+/* секция 2 */
+
+.container_gallery {
+    width: 70%;
+    position: relative;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 35%;
+    /* background-color: rgba(0, 0, 0, 0.342); */
+    /* height: 100%; */
+    z-index: 10;
+    visibility: hidden;
+}
+
+.carousel-control-prev-icon {
+    z-index: 100;
+}
+
+.carousel-control-next-icon {
+    z-index: 100;
+}
+
+.carousel-item:hover .carousel-caption {
+    visibility: visible !important;
+}
+
+
+/* .carousel-caption {
+    position: absolute;
+    height: 100%;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.342);
+}
+
+.carousel-item:hover .carousel-caption {
+    visibility: visible !important;
+}
+
+.carousel-caption h1 {
+    position: absolute;
+    margin-top: 100px;
+    top: 20%;
+}
+
+.carousel-caption p {
+    position: absolute;
+    font-size: x-large;
+    top: 40%;
+    margin-bottom: 100px;
+}
+
+.carousel-caption .btn_gallery {
+    padding: 20px 50px;
+    position: absolute;
+    top: 50%;
+} */
+
+
+/* секция форма */
+
+.container_form {
+    width: 50%;
+}
+
+.form-check-inline {
+    margin-right: 2rem !important;
+}
+
+.form-check-inline .form-check-input {
+    margin-top: 5px !important;
+}
+
+
+/* footer */
+
+footer img {
+    width: 40px;
+}
+
+footer .rounded-circle:hover {
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+@media only screen and (max-width: 600px) {
+    .nav_icon {
+        display: none !important;
+    }
+    .hello_img {
+        order: -1;
+    }
+    .title_item_img {
+        margin-bottom: 50px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .hello_text {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .text_item {
+        padding-right: 0;
+    }
+    .story {
+        margin-right: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+    .story_text {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .story_img {
+        order: -1;
+    }
+    .container_gallery {
+        width: 90%;
+    }
+    .carousel-inner:nth-child(2) {
+        display: none;
+    }
+    .carousel-caption h1 {
+        font-size: larger;
+    }
+    .carousel-caption p {
+        font-size: larger;
+        margin-bottom: 10px;
+    }
+    .carousel-caption .btn {
+        padding: 5px 10px;
+    }
+    .card {
+        width: 70% !important;
+        margin: 0 auto;
+        border: none !important;
+    }
+    .card-body {
+        border: none !important;
+        border-bottom: 1px solid grey !important;
+    }
+    .container_form {
+        width: 80%;
+    }
+    .form-row {
+        display: block;
+    }
+    .form-check-inline {
+        margin-right: 5px !important;
+    }
+    .contact {
+        display: block;
+    }
+    #inlineTelegram {
+        margin-bottom: 20px;
+    }
+    #FormControlTextarea {
+        height: 200px;
+    }
+    .send {
+        width: 100px;
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width: 850px) {
+    .navbar-text {
+        display: none !important;
+    }
+    .hello_text {
+        font-size: 12px;
+        margin-left: -40px;
+    }
+    .hello_text h1 {
+        font-size: 500;
+    }
+    .text_item {
+        padding-right: 20px;
+    }
+    .story_text {
+        font-size: 12px;
+    }
+    .img_left {
+        width: 150%;
+    }
+    .story_right {
+        margin-left: 70px;
+    }
+    .offset-md-2 {
+        margin-left: 2.666667% !important;
+    }
+    /* .story_left {
+        margin-left: 20px;
+    } */
+    .img_right {
+        width: 150%;
+        margin-left: -140px;
+    }
+    .container_gallery {
+        width: 95%;
+    }
+    .carousel-caption h1 {
+        font-size: larger;
+    }
+    .carousel-caption p {
+        font-size: larger;
+        margin-bottom: 40px;
+    }
+    .carousel-caption .btn {
+        padding: 5px 10px;
+    }
+    .card {
+        width: 50% !important;
+        flex: 0 0 auto;
+        border: none !important;
+    }
+    .card:nth-child(1),
+    .card:nth-child(3),
+    .card:nth-child(5) {
+        border-right: 1px solid rgb(201, 201, 201) !important;
+    }
+    .card:nth-child(4) {
+        border-bottom: 1px solid rgb(201, 201, 201) !important;
+    }
+    .container_form {
+        width: 95%;
+    }
+    #FormControlTextarea {
+        height: 200px;
+    }
+}
